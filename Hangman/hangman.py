@@ -1,5 +1,13 @@
-MAX_TRIES = 6
 
+__author__ = "Elad Shoshani"
+__version__ = "1.0"
+__maintainer__ = "Elad Shoshani"
+__email__ = "eladshoshani11@gmail.com"
+# ---------------------------------------------------------------------------
+"""A simple hangman game you can play, build as the final exercise of the self.py course"""
+# ---------------------------------------------------------------------------
+
+MAX_TRIES = 6
 
 def start_screen(MAX_TRIES):
     """Print the Welcome Screen (and the Maximum number of failed tries below).
